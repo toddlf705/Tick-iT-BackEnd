@@ -16,7 +16,6 @@ class Event(models.Model):
     date = models.DateField()
     time = models.TimeField(auto_now=False, auto_now_add=False)
     image = models.URLField()  
-    address = models.CharField(max_length=200)
     description = models.TextField()
     venue = models.ForeignKey(Venue, on_delete=models.CASCADE)
 
