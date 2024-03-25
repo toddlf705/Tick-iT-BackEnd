@@ -6,13 +6,13 @@ We are building a REST-ful API with Django in order to call data from the front 
 
 <h2> Devlopers</h2>
 
-Clora V
-Cody Cadena
-Daisy Ban
-Joy Wu
+Clora V <br>
+Cody Cadena <br>
+Daisy Ban <br>
+Joy Wu <br>
 
 <h2> ERD </h2>
-<img src="ERD.jpg" width="400px"></img>
+<img src="ERD.jpg" width="450px"></img>
 
 
 <h2> Link to Tick-iT-Frontend </h2>
