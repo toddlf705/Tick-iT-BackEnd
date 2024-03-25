@@ -14,7 +14,7 @@ class Venue(models.Model):
 class Event(models.Model):
     name = models.CharField(max_length=100)
     date = models.DateField()
-    time = models.TimeField(format='%I:%M %p')
+    time = models.TimeField(auto_now=False, auto_now_add=False)
     image = models.URLField()  
     address = models.CharField(max_length=200)
     description = models.TextField()
