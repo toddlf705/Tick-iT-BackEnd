@@ -12,7 +12,7 @@ Daisy Ban <br>
 Joy Wu <br>
 
 <h2> ERD </h2>
-<img src="ERD.jpg" width="450px"></img>
+<img src="ERD.jpg" width="600px"></img>
 
 
 <h2> Link to Tick-iT-Frontend </h2>
