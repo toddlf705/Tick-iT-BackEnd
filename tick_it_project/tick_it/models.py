@@ -22,6 +22,7 @@ class Event(models.Model):
     image = models.URLField(default = 'www.fake.com')  
     description = models.TextField()
     venue = models.ForeignKey(Venue, on_delete=models.CASCADE)
+    price = models.CharField(max_length=50, default = 'free')
 
     def __str__(self):
         return self.name
